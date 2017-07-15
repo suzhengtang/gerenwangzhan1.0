@@ -1,0 +1,308 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+html{
+    font-size: 10px;
+}
+.all{
+    min-width: 300px;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/***************************banner部分************************/
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+/***************************服务部分************************/
+#server{
+    width: 100%;
+}
+#server .server{
+    padding: 0 6%;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+}
+#server .server div{
+    width: 100%;
+    background: url("../images/server.png") center 66% no-repeat;
+    background-size: 50% auto;
+}
+#server .server div p,#me .about p,#content div p{
+    text-align: center;
+    padding:20%;
+    font-size: 24px;
+    font-weight: 100;
+    color: #272e35;
+}
+#server ul{
+    width: 50%;
+    text-align: center;
+}
+#server .left{
+    float: left;
+}
+#server .right{
+    float: right;
+}
+#server ul li{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+#server li img{
+    width: 50%;
+}
+#server li p:first-of-type{
+    font-size: 16px;
+    color: #272e35;
+    padding-top: 10%;
+    font-weight: 400;
+}
+#server li p:last-of-type{
+    font-size: 14px;
+    color: #b7b8ba;
+}
+/***************************关于我部分************************/
+#me{
+    width: 100%;
+    background-color: #f4f2ed;
+    padding: 0 6%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#me .about{
+    background: url("../images/about.png") center 64% no-repeat;
+    background-size: 50% auto;
+}
+#me .logo{
+    text-align: center;
+}
+#me .logo img{
+    width: 30%;
+}
+#me .logo p{
+    padding-top: 8%;
+    font-size: 24px;
+    color: #272e35;
+    font-weight: 500;
+}
+#me .ziwei{
+    text-align: center;
+}
+#me .ziwei>div{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 22%;
+    margin: 3% 1%;
+    padding: 2% 0;
+    border-radius: 100px;
+}
+#me .ziwei>div:first-child{
+    background-color: #ff9998;
+}
+#me .ziwei>div:nth-child(2){
+    background-color: #edd340;
+}
+#me .ziwei>div:last-child{
+    background-color: #80c2ff;
+}
+#me .content p{
+    padding-bottom: 10%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9a9c9d;
+    letter-spacing: 0;
+    text-indent: 2em;
+    text-align: center;
+}
+
+/***************************作品部分************************/
+#content{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 6%;
+    box-sizing: border-box;
+}
+#content div{
+    background: url("../images/work.png") center 70% no-repeat;
+    background-size: 50% auto;
+}
+#content ul li{
+    float: left;
+    width: 49%;
+    margin-bottom: 1%;
+}
+#content ul li:nth-child(2n){
+    float: right;
+    width: 49%;
+}
+#content ul li img{
+    width: 100%;
+}
+#content ul li:last-of-type{
+    margin-bottom: 20%;
+}
+/***************************底部部分************************/
+#footer{
+    width: 100%;
+    height:auto;
+}
+#footer .bg{
+    width: 100%;
+    background: url("../images/bg.png") 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#footer .bg .yuan{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+}
+#footer .bg p{
+    color: #fff;
+    font-size: 16px;
+}
+#footer .bg .year{
+    margin-top: 20%;
+    box-sizing: border-box;
+}
+#footer .bg .ser{
+    margin: 6% 0;
+}
+#footer .bg span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 2%;
+}
+#footer .name{
+    width: 100%;
+    background-color: #242a30;
+    text-align: center;
+    position: relative;
+}
+#footer .name img{
+    width: 40%;
+    padding:28% 0 40% 0;
+}
+#footer .name p{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: #49545f;
+    font-size: 14px;
+}
+
+/*************************电话微信部分************************/
+.address{
+    width: 100%;
+    height:auto;
+    position: relative;
+    display: none;
+}
+.address span{
+    width: 50%;
+    position: fixed;
+    bottom:0;
+
+}
+.address .phone{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding:4% 0;
+    background-color: #ffffff;
+    left: 0;
+    color: #272e35;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1);
+}
+.address .weixin{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding:4% 0;
+    background-color: #13be11;
+    right: 0;
+    color: #ffffff;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/***************************弹框内容部分************************/
+.alert{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index:999;
+    display: none;
+}
+.alert .box{
+    width: 80%;
+    position: fixed;
+    left: 50%;
+    margin-left: -40%;
+    top: 50%;
+    margin-top: -50%;
+    -webkit-animation:move 0.2s linear;
+    -o-animation:move 0.2s linear;
+    animation:move 0.1s linear;
+}
+.alert .box .top{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+.alert .box .top img{
+    width: 70%;
+    height: 70%;
+}
+.alert .box .top p{
+    font-size: 14px;
+    padding: 5% 0;
+    color: #909090;
+}
+.alert .box .button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.alert .box .button span{
+    display: block;
+    width: 1%;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.alert .box .button img{
+    width: 16%;
+    height: 16%;
+}
+@keyframes move {
+    0%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
